@@ -1,0 +1,60 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Editor backup files
+*~
+*.bak
+*.swp
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Database files (if using SQLite or similar local databases)
+*.sqlite3
+*.db
+
+# Uploaded files or generated assets
+/media/
+/static/
+/files/
+
+# Configuration files that might contain sensitive information
+.env
+.env.*
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test reports
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Docker-related files (if applicable)
+docker-compose.override.yml
+.dockerignore
+
+# Other common ignored files
+.DS_Store
+Thumbs.db
+
+# Pruebas de la API y demás
+.iml
+.http
+.xml
+.idea
