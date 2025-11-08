@@ -33,7 +33,6 @@ temp/
 
 # Configuration files that might contain sensitive information
 .env
-.env.*
 
 # Build artifacts
 dist/
